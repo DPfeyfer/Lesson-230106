@@ -9,23 +9,25 @@ public class Main {
         while (totalDeposit < 2459000){ //why 2460000
             totalDeposit = totalDeposit + deposit;
             totalMonth ++;
-            System.out.println("we need " + totalMonth + " month for " + totalDeposit + "$");
+            System.out.println("we need " + totalMonth + " month for " + totalDeposit + " $");
         }
         System.out.println();
-        System.out.println("we need " + totalMonth + " month for " + totalDeposit + "$");
+        System.out.println("we need " + totalMonth + " month for " + totalDeposit + " $");
         System.out.println();
 
 
         //task 2
-        System.out.println("Task 2");
-        int i = 1;
-        while (i < 11);{
-            System.out.print(i + " ");
-        }
-        for (; i < 11; i++) {
-            System.out.print(i + " ");
-        }
-        System.out.println();
+       System.out.println("Task 2");
+       int a = 1;
+       for (; a < 11; a++) {
+            System.out.print(a + " ");
+       }
+       System.out.println();
+       while (a > 1){
+           a --;
+           System.out.print(a + " ");
+       }
+       System.out.println(); // why we have not space?
 
 
         //task 3
