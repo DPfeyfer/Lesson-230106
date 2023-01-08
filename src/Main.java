@@ -6,16 +6,25 @@ public class Main {
         double deposit = 15000;
         double totalDeposit = 0;
         int totalMonth = 0;
-        while (totalDeposit < 2459000){
+        while (totalDeposit < 2459000){ //why 2460000
             totalDeposit = totalDeposit + deposit;
-            totalMonth = totalMonth + 1;
+            totalMonth ++;
+            System.out.println("we need " + totalMonth + " month for " + totalDeposit + "$");
         }
+        System.out.println();
         System.out.println("we need " + totalMonth + " month for " + totalDeposit + "$");
         System.out.println();
 
 
         //task 2
         System.out.println("Task 2");
+        int i = 1;
+        while (i < 11);{
+            System.out.print(i + " ");
+        }
+        for (; i < 11; i++) {
+            System.out.print(i + " ");
+        }
         System.out.println();
 
 
