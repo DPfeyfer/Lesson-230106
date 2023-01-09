@@ -27,11 +27,33 @@ public class Main {
            a --;
            System.out.print(a + " ");
        }
-       System.out.println(); // why we have not space?
+       System.out.println();
+       System.out.println();// why we have not space?
+
+
+        //task 2.1
+        System.out.println("task 2.1");
+        int b = 0;
+        while (b < 10){
+            b ++;
+            System.out.print(b + " ");
+        }
+        System.out.println();
+        for (; b > 0 ; b--) {
+            System.out.print(b + " ");
+        }
+        System.out.println();
+        System.out.println();
 
 
         //task 3
         System.out.println("Task 3");
+        int numberOfPersons = 12_000_000;
+        int growthOfPersons = (numberOfPersons / 1000) * 9;
+        for (int year = 1; year < 11; year++) {
+            numberOfPersons = numberOfPersons + growthOfPersons;
+            System.out.println(year + " year the number of persons is " + numberOfPersons);
+        }
         System.out.println();
 
 
