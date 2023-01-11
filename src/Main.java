@@ -124,6 +124,16 @@ public class Main {
 
         //task 8
         System.out.println("Task 8");
-        System.out.println();
+        int currentYear = 2017;
+        int yearAgo = currentYear - 200;
+        int yearAfter = currentYear + 100;
+
+        //for (; yearAgo < yearAfter; yearAgo = yearAgo + 79) {
+        //    System.out.println("Comet will fly over the earth in " + yearAgo + " year");
+        //}
+        while (yearAgo < yearAfter){
+            yearAgo = yearAgo + 79;
+            System.out.println(yearAgo);
+        }
     }
 }
