@@ -115,6 +115,10 @@ public class Main {
 
         //task 7
         System.out.println("Task 7");
+        int firstFriday = 6;
+        for (; firstFriday <= 31; firstFriday = firstFriday + 7) {
+            System.out.println("Today " + firstFriday + "th friday. You need to do report!" );
+        }
         System.out.println();
 
 
