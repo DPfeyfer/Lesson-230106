@@ -51,7 +51,7 @@ public class Main {
         int numberOfPersons = 12_000_000;
         int growthOfPersons = (numberOfPersons / 1000) * 9;
         for (int year = 1; year < 11; year++) {
-            numberOfPersons = numberOfPersons + growthOfPersons;
+            numberOfPersons += growthOfPersons;
             System.out.println(year + " year the number of persons is " + numberOfPersons);
         }
         System.out.println();
@@ -63,7 +63,7 @@ public class Main {
         int year = 0;
         while (year < 10){
             year ++;
-            numberOfPersons1 = numberOfPersons1 + growthOfPersons;
+            numberOfPersons1 += growthOfPersons;
             System.out.println(year + " year the number of persons is " + numberOfPersons1);
         }
         System.out.println();
