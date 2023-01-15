@@ -49,7 +49,7 @@ public class Main {
         //task 3
         System.out.println("Task 3");
         int numberOfPersons = 12_000_000;
-        int growthOfPersons = (numberOfPersons / 1000) * 9;
+        int growthOfPersons = numberOfPersons / 1000 * 9; // important in cycle or out
         for (int year = 1; year < 11; year++) {
             numberOfPersons += growthOfPersons;
             System.out.println(year + " year the number of persons is " + numberOfPersons);
